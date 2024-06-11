@@ -7,7 +7,7 @@ int mat1[NMAX][NMAX];
 int mat2[NMAX][NMAX];
 int result[NMAX][NMAX];
 
-void printMat(int m, int n, int mat[m][n]) {
+void printMat(int m, int n, int mat[][NMAX]) {
     for (int i = 0; i < m; i++) {
         printf("%d", mat[i][0]);
         for (int j = 1; j < n; j++) {
